@@ -95,6 +95,79 @@
         font-size: 15px;
     }
 
+		.btn{
+		  display: inline-block;
+		}
+
+		.facebook img{
+		  width: 55px;
+		  height: 55px;
+		}
+
+		.facebook{
+		  position: relative;
+		  padding-top: 30px;
+		}
+
+		.facebook .active{
+		  position: absolute;
+		  left: 20px;
+		  top: 30px;
+		  opacity: 0;
+		  transition: 0.1s;
+		}
+
+		.facebook:hover .active{
+		  opacity: 1;
+		}
+
+
+		.twitter img{
+		  width: 55px;
+		  height: 55px;
+		}
+
+		.twitter{
+		  position: relative;
+		  padding-top: 30px;
+		}
+
+		.twitter .active{
+		  position: absolute;
+		  left: 20px;
+		  top: 30px;
+		  opacity: 0;
+		  transition: 0.1s;
+		}
+
+		.twitter:hover .active{
+		  opacity: 1;
+		}
+
+
+		.hatena img{
+		  width: 55px;
+		  height: 55px;
+		}
+
+		.hatena{
+		  position: relative;
+		  padding-top: 30px;
+		}
+
+		.hatena .active{
+		  position: absolute;
+		  left: 25px;
+		  top: 30px;
+		  opacity: 0;
+		  transition: 0.1s;
+		}
+
+		.hatena:hover .active{
+		  opacity: 1;
+		}
+
+
 
 	/*program-wrapper部分*/
 
@@ -196,6 +269,14 @@
 	.r-box p{
 		line-height: 1.5;
 	}
+
+	/* ここからtwitter-timeline-box */
+	.twitter-timeline-box{
+	  text-align:center;
+	  padding-bottom: 100px;
+	  height: 500px;
+	}
+
 
 	/*ここからaiesec-introduction*/
 	.aiesec-logo img {

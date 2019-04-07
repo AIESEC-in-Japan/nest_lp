@@ -66,7 +66,6 @@ header {
 
 /*ここからtop-section*/
 .top-section {
-  /*アイキャッチ画像のオレンジ透過変更前*/
 	background-image: url("nest-eyecatch.png");
 	margin: 0 auto;
 	background-size: cover;
@@ -119,6 +118,78 @@ header {
 	background-color: white;
 	color: #FF9F00;
 	border: 2px solid #FF9F00;
+}
+
+.btn{
+  display: inline-block;
+}
+
+.facebook img{
+  width: 55px;
+  height: 55px;
+}
+
+.facebook{
+  position: relative;
+  padding-top: 30px;
+}
+
+.facebook .active{
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.facebook:hover .active{
+  opacity: 1;
+}
+
+
+.twitter img{
+  width: 55px;
+  height: 55px;
+}
+
+.twitter{
+  position: relative;
+  padding-top: 30px;
+}
+
+.twitter .active{
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.twitter:hover .active{
+  opacity: 1;
+}
+
+
+.hatena img{
+  width: 55px;
+  height: 55px;
+}
+
+.hatena{
+  position: relative;
+  padding-top: 30px;
+}
+
+.hatena .active{
+  position: absolute;
+  left: 25px;
+  top: 30px;
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.hatena:hover .active{
+  opacity: 1;
 }
 
 
@@ -178,7 +249,7 @@ header {
 }
 
 .program-number  {
-	width: 100px;
+	width: 65px;
 	position: absolute;
 	top: -35px;
 	right: auto;
@@ -325,6 +396,13 @@ header {
 
 .clear {
 	clear: both;
+}
+
+/* ここからtwitter-timeline-box */
+.twitter-timeline-box{
+  text-align:center;
+  padding-bottom: 100px;
+  height: 500px;
 }
 
 
